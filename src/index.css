@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap');
+@import "tailwindcss";
+
+:root {
+  --ivory: hsl(44 31% 95%);
+  --pale: hsl(42 25% 91%);
+  --sand: hsl(36 22% 78%);
+  --ink: hsl(90 8% 14%);
+  --moss: hsl(105 13% 27%);
+  --rust: hsl(15 54% 47%);
+  --stone: hsl(65 5% 39%);
+  font-family: 'DM Sans', sans-serif;
+  color: var(--ink);
+  background: var(--ivory);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+@theme inline {
+  --color-ivory: var(--ivory);
+  --color-pale: var(--pale);
+  --color-sand: var(--sand);
+  --color-ink: var(--ink);
+  --color-moss: var(--moss);
+  --color-rust: var(--rust);
+  --color-stone: var(--stone);
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-sans: 'DM Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--ivory);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button,
+a,
+select {
+  cursor: pointer;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--rust);
+  outline-offset: 3px;
+}
+
+.eyebrow {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.19em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  position: absolute;
+  right: 0;
+  bottom: -0.45rem;
+  left: 0;
+  height: 1px;
+  content: '';
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.hero-shade {
+  background:
+    linear-gradient(90deg, rgba(21, 24, 20, 0.58) 0%, rgba(21, 24, 20, 0.12) 68%),
+    linear-gradient(0deg, rgba(21, 24, 20, 0.35) 0%, transparent 55%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

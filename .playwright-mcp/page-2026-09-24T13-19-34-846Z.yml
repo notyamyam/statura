@@ -1,0 +1,188 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Statura home" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - text: STATURA
+      - button "Open navigation" [ref=e7] [cursor=pointer]
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - img "Contemporary home overlooking the sea" [ref=e11]
+      - generic [ref=e13]:
+        - paragraph [ref=e14]: Exceptional homes, thoughtfully found
+        - heading "Homes of consequence." [level=1] [ref=e15]: Homes ofconsequence.
+        - paragraph [ref=e18]: A considered collection of remarkable properties in the world’s most compelling places.
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - text: Location
+          - textbox "Location" [ref=e26]:
+            - /placeholder: City, region, or country
+        - generic [ref=e27]:
+          - text: Property type
+          - combobox "Property type" [ref=e32] [cursor=pointer]:
+            - option "All properties" [selected]
+            - option "Villa"
+            - option "Townhouse"
+            - option "Apartment"
+        - generic [ref=e33]:
+          - text: Budget
+          - combobox "Budget" [ref=e39] [cursor=pointer]:
+            - option "Any budget" [selected]
+            - option "$1M - $2M"
+            - option "$2M - $5M"
+            - option "$5M+"
+        - button "Search" [ref=e40] [cursor=pointer]
+      - paragraph [ref=e44]: Search ready
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - paragraph [ref=e48]: A different kind of property company
+          - heading "We look beyond the square footage." [level=2] [ref=e49]
+        - generic [ref=e50]:
+          - paragraph [ref=e51]: We seek homes with an enduring sense of place. Architecture with intent, materials that age honestly, and settings worth crossing the world for.
+          - link "Discover our approach" [ref=e52] [cursor=pointer]:
+            - /url: "#story"
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - paragraph [ref=e58]: "128"
+          - paragraph [ref=e59]: Exceptional homes
+        - generic [ref=e60]:
+          - paragraph [ref=e61]: "14"
+          - paragraph [ref=e62]: Global destinations
+        - generic [ref=e63]:
+          - paragraph [ref=e64]: "22"
+          - paragraph [ref=e65]: Local advisors
+        - generic [ref=e66]:
+          - paragraph [ref=e67]: 18 yrs
+          - paragraph [ref=e68]: Collective experience
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - paragraph [ref=e73]: The current collection
+          - heading "Homes worth knowing" [level=2] [ref=e74]
+        - button "View all 128" [ref=e75] [cursor=pointer]
+      - generic [ref=e78]:
+        - article [ref=e79]:
+          - generic [ref=e80]:
+            - img "Casa Oliva in Mallorca, Spain" [ref=e81]
+            - generic [ref=e82]: New listing
+            - button "Save Casa Oliva" [ref=e83] [cursor=pointer]
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - paragraph [ref=e89]: Mallorca, Spain
+                - heading "Casa Oliva" [level=3] [ref=e90]
+              - paragraph [ref=e91]: $4,280,000
+            - generic [ref=e92]:
+              - generic [ref=e93]: 4 beds
+              - generic [ref=e97]: 4 baths
+              - generic [ref=e101]: 4,820 sq ft
+        - article [ref=e102]:
+          - generic [ref=e103]:
+            - img "The Ridge House in Cape Town, South Africa" [ref=e104]
+            - generic [ref=e105]: Exclusive
+            - button "Save The Ridge House" [ref=e106] [cursor=pointer]
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - paragraph [ref=e112]: Cape Town, South Africa
+                - heading "The Ridge House" [level=3] [ref=e113]
+              - paragraph [ref=e114]: $3,950,000
+            - generic [ref=e115]:
+              - generic [ref=e116]: 5 beds
+              - generic [ref=e120]: 4 baths
+              - generic [ref=e124]: 5,100 sq ft
+        - article [ref=e125]:
+          - generic [ref=e126]:
+            - img "Atelier No. 8 in Copenhagen, Denmark" [ref=e127]
+            - generic [ref=e128]: Editor’s pick
+            - button "Save Atelier No. 8" [ref=e129] [cursor=pointer]
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - generic [ref=e134]:
+                - paragraph [ref=e135]: Copenhagen, Denmark
+                - heading "Atelier No. 8" [level=3] [ref=e136]
+              - paragraph [ref=e137]: $2,760,000
+            - generic [ref=e138]:
+              - generic [ref=e139]: 3 beds
+              - generic [ref=e143]: 2 baths
+              - generic [ref=e147]: 2,940 sq ft
+        - complementary [ref=e148]:
+          - paragraph [ref=e149]: Private listings,quietly shared.
+          - paragraph [ref=e150]: Some homes never reach the open market. Join our private list for discreet introductions.
+          - button "Join the private list" [ref=e151] [cursor=pointer]
+    - generic [ref=e154]:
+      - generic [ref=e155]:
+        - img "Warm modern home interior" [ref=e156]
+        - generic [ref=e158]:
+          - paragraph [ref=e159]: Journal No. 07
+          - paragraph [ref=e160]: The permanence of good design
+      - generic [ref=e162]:
+        - blockquote [ref=e166]: “A home should feel inevitable, as though it has always belonged exactly where it stands.”
+        - paragraph [ref=e167]: Our selection is deliberately narrow. Every home is visited, considered, and chosen by people who understand both property and place.
+        - button "Meet our curators" [ref=e168] [cursor=pointer]
+    - generic [ref=e170]:
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - paragraph [ref=e173]: Find your place
+          - heading "Destinations with soul" [level=2] [ref=e174]
+        - generic [ref=e175]:
+          - button "Previous destinations" [ref=e176] [cursor=pointer]
+          - button "Next destinations" [ref=e179] [cursor=pointer]
+      - generic [ref=e182]:
+        - article [ref=e183]:
+          - img "Lisbon" [ref=e185]
+          - generic [ref=e186]:
+            - paragraph [ref=e187]: Lisbon
+            - paragraph [ref=e188]: 42 homes
+        - article [ref=e189]:
+          - img "Mallorca" [ref=e191]
+          - generic [ref=e192]:
+            - paragraph [ref=e193]: Mallorca
+            - paragraph [ref=e194]: 31 homes
+        - article [ref=e195]:
+          - img "Copenhagen" [ref=e197]
+          - generic [ref=e198]:
+            - paragraph [ref=e199]: Copenhagen
+            - paragraph [ref=e200]: 27 homes
+        - article [ref=e201]:
+          - img "Cape Town" [ref=e203]
+          - generic [ref=e204]:
+            - paragraph [ref=e205]: Cape Town
+            - paragraph [ref=e206]: 36 homes
+    - generic [ref=e207]:
+      - paragraph [ref=e211]: A more personal search
+      - heading "Tell us what home means to you." [level=2] [ref=e212]
+      - paragraph [ref=e213]: Share what you are looking for and one of our local advisors will curate a considered shortlist, just for you.
+      - button "Start a conversation" [ref=e214] [cursor=pointer]
+  - contentinfo [ref=e215]:
+    - generic [ref=e216]:
+      - generic [ref=e217]:
+        - generic [ref=e218]:
+          - link "Statura home" [ref=e219] [cursor=pointer]:
+            - /url: /
+            - text: STATURA
+          - paragraph [ref=e220]: Remarkable homes. Enduring places.Represented with care.
+        - generic [ref=e221]:
+          - generic [ref=e222]:
+            - paragraph [ref=e223]: Explore
+            - paragraph [ref=e224]: Properties
+            - paragraph [ref=e225]: Destinations
+            - paragraph [ref=e226]: Journal
+          - generic [ref=e227]:
+            - paragraph [ref=e228]: Statura
+            - paragraph [ref=e229]: Our approach
+            - paragraph [ref=e230]: Sell with us
+            - paragraph [ref=e231]: Contact
+        - generic [ref=e232]:
+          - paragraph [ref=e233]: Private notes from exceptional places
+          - generic [ref=e234]:
+            - textbox "Email address" [ref=e235]
+            - button "Subscribe" [ref=e236] [cursor=pointer]
+      - generic [ref=e239]:
+        - paragraph [ref=e240]: © 2026 Statura Property Collection
+        - generic [ref=e241]:
+          - generic [ref=e242]: Privacy
+          - generic [ref=e243]: Terms
+          - generic [ref=e244]: Instagram
